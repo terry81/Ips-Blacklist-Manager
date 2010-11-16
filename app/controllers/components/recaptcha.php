@@ -1,8 +1,8 @@
 <?php
 class RecaptchaComponent extends Object
 {
-    public $publickey = "6Lfj770SAAAAALxNvfGHY2Ys5JfXK837-fvE2I11"; // use your public key here
-    public $privatekey = "6Lfj770SAAAAAMFA2mYhtB7KuBKjMzsZMrMT2v_n"; // user your private key here
+    public $publickey = "YOUR_PUB_KEY"; // use your public key here
+    public $privatekey = "YOUR_PRIVATE_KEY"; // user your private key here
 
     function startup(&$controller)
     {

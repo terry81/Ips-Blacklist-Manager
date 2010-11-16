@@ -9,3 +9,12 @@ In order to install the script do the following:
 3. Extract Ips-Blacklist-Manager.zip to the directory which will be used for the application
 
 4. Edit the file app/config/database.php and set it with your MySQL user and password
+
+5. Get a Recaptcha key pair and add them to:
+
+app/controllers/components/recaptcha.php
+
+6. Finally, you can log in with:
+
+user: admin
+password: 1a1a1a

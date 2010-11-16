@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$user = "root";
-$pw = "1a1a1a";
-$database = "blocker";
+$user = "YOUR_USER";
+$pw = "YOUR_PASSWORD";
+$database = "YOUR_DATABASE";
 
 $db = mysql_connect($host, $user, $pw)
         or die("Cannot connect to mySQL.");

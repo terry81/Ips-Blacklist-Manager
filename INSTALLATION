@@ -1,0 +1,11 @@
+INSTALLATION
+
+In order to install the script do the following:
+
+1. Create a new MySQL database for the application and add an user to it
+
+2. Import the database blocker.sql to the newly created database
+
+3. Extract Ips-Blacklist-Manager.zip to the directory which will be used for the application
+
+4. Edit the file app/config/database.php and set it with your MySQL user and password
